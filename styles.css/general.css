@@ -1,0 +1,31 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.main-body-content {
+  display: grid;
+  grid-template-columns: 295px auto 390px;
+  margin: 0 auto;
+  max-width: 1270px;
+}
+.left-bar {
+  position: fixed;
+  width: 300px;
+  top: 0;
+  bottom: 0;
+}
+.middle-bar {
+  display: flex;
+  justify-content: center;
+  z-index: 40;
+}
+.right-bar-container {
+  display: flex;
+  justify-content: center;
+}
+.right-bars {
+  height: 100%;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+}
