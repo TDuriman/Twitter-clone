@@ -405,17 +405,52 @@ header {
 .user-name {
   line-height: 6px;
 }
+
+.main-user-n-c {
+  position: relative;
+  transition: 0.95s;
+}
 .main-user-n {
   font-weight: bold;
   font-size: 16px;
-}
-.main-user-n:hover {
-  text-decoration: underline;
   cursor: pointer;
+}
+.main-user-n-c:hover .users-hover {
+  opacity: 1;
+}
+.users-hover {
+  position: absolute;
+  left: -55px;
+  width: 255px;
+  height: 220px;
+  background-color: rgb(240, 240, 240);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  pointer-events: none;
+}
+.first-user-hover {
+  display: grid;
+  grid-template-columns: 150px 100px;
+}
+.c4-img-users {
+  width: 60px;
+  border-radius: 50px;
 }
 .m-user-mail {
   font-size: 16.2px;
   color: gray;
+}
+.user-follow-btns {
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  border: none;
+  width: 75px;
+  height: 35px;
+  border-radius: 30px;
+  cursor: pointer;
 }
 .user-follow-btn {
   background-color: black;
@@ -429,4 +464,30 @@ header {
 }
 .user-follow-btn:hover {
   opacity: 0.9;
+}
+.main-users-hover {
+  margin-bottom: 30px;
+}
+.user-m-hover {
+  font-size: 16px;
+  font-weight: bold;
+}
+.user-mail-hover {
+  color: gray;
+}
+.user-bio-main {
+  margin-bottom: 25px;
+}
+.user-bio {
+  font-size: 16px;
+}
+.users-f-f {
+  display: grid;
+  grid-template-columns: 100px 100px;
+}
+.users-num {
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  margin-right: 5px;
 }
