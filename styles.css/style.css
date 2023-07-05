@@ -220,9 +220,13 @@ header {
   bottom: 10px;
   display: grid;
   grid-template-columns: 65px auto 70px;
-  padding: 6px 6px 6px 4px;
-  width: 200px;
+  padding: 4px 6px 4px 6px;
+  width: 300px;
   border-radius: 55px;
+}
+.user-bottom:hover {
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
 }
 
 .img-prf-user {
