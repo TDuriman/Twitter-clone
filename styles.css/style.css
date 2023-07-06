@@ -510,3 +510,14 @@ header {
   background-color: rgb(235, 235, 235);
   cursor: pointer;
 }
+.bottom-user-list-three {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 50px auto 100px;
+  background-color: rgb(248, 248, 248);
+  padding-left: 17px;
+}
+.bottom-user-list-three:hover {
+  background-color: rgb(235, 235, 235);
+  cursor: pointer;
+}
