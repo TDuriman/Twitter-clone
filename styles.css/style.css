@@ -491,13 +491,13 @@ header {
 }
 .users-f-f {
   display: grid;
-  grid-template-columns: 100px 100px;
+  grid-template-columns: 100px 140px;
 }
 .users-num {
   font-weight: bold;
   font-size: 15px;
   color: black;
-  margin-right: 5px;
+  margin-right: 3px;
 }
 .bottom-user-list-two {
   display: grid;
