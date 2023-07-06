@@ -491,7 +491,7 @@ header {
 }
 .users-f-f {
   display: grid;
-  grid-template-columns: 100px 140px;
+  grid-template-columns: 100px 160px;
 }
 .users-num {
   font-weight: bold;
