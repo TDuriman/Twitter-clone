@@ -436,6 +436,7 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
   opacity: 0;
   pointer-events: none;
+  transition: 0.85s;
   z-index: 10;
 }
 .first-user-hover {
