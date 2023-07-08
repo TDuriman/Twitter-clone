@@ -56,8 +56,11 @@ header {
   margin-bottom: 20px;
 }
 .twitter-icon {
-  width: 33px;
+  width: 27px;
+  height: 27px;
   margin-right: 15px;
+  aspect-ratio: 7/5;
+  object-fit: contain;
   fill: rgb(27, 27, 27);
 }
 .icon-items {
